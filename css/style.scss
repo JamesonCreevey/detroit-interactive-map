@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 540px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    button {
+      padding: 5px;
+      margin: 1rem 0;
+    }
+  }
+}
+
+#mapid { 
+  height: 100%; 
+  margin: 2rem;
+}
